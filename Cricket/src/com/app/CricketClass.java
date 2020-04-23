@@ -12,6 +12,8 @@ public class CricketClass {
 		
 		UtilityClass u = new UtilityClass();
 		System.out.println(u.getSysDate());
+		
+		u.m1();
 	}
 
 }
