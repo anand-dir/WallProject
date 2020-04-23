@@ -1,6 +1,7 @@
 package com.app;
 
 import com.app.utility.UtilityClass;
+import com.app.utility.branch.Function1;
 
 public class CricketClass {
 	
@@ -14,6 +15,9 @@ public class CricketClass {
 		System.out.println(u.getSysDate());
 		
 		u.m1();
+		
+		Function1 f1 = new Function1();
+		f1.m1();
 	}
 
 }
